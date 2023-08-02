@@ -1,0 +1,41 @@
+Frontend: 
+    1) Esta en el frente de cada uno
+    2) Cliente cliente cliente cliente cliente 
+    3) Tiene: 
+        1) HTML (Contenido de una pagina): 
+            es tipo un achivo que se puede ejecutar en navegadores web. 
+        2) CSS (Estilo y maquetacion): 
+        Al contenido le hacemos la ubicacion, colores, distribucion, estilos, presionar un boton y hacer otra cosa.
+        Boostrap: Hoja de estilos que 
+        3) JavaScript (Cerebro): para hacer distintas funcionalidades, todo lo que es pensamiento es 
+               
+Backend: 
+    Es el software preparado para recibir los pedidos de los clientes.
+    Atiende muchos clientes, administra las transacciones. Parte del negocio. 
+    Node JS -Express 
+    Express: herramienta que se monta sobre Node JS. 
+    Usaremos la base de datos mysql. 
+    Servidor: maquina que presta un servicio. 
+
+
+HTML: 
+Son todo etiquetas y tiene un cierre 
+Head es un hijo del nodo mas grande que es HTML. 
+<head> : Parametrizacion de cosas el head esta por detas.
+Haciendo html:5 -> VSC te lo escribe todo altoke. 
+
+Etiqueta: 
+Las que abren y cierra  es porque tienen un hijo adentro. 
+
+    1)H: van de la 1 a la 6   
+        porque? -> La semantica es una prolijidad que debemos respetar los programadores.
+        Toda la organizacion interna del body tiene que tener una estructuracion. 
+    2)En cada HTML solo hay un H1. Puedo tener un titulo general, titulo de noticia, subtitulo,etc.   
+    (la h viene de header). 
+    3) Strong es mas semantico, etiqueta <b> para negrita o para italica <i>  quedaron arcaicas.  
+    4) br: salto de linea. hr: corte con una linea
+    5) Lo que aparecen dentro de < > son las propiedades por ej:  <img src="" alt="" >
+    6)Src es una propiedad de img alt: si no encuentro nada describo la imagen aca.  Banco para fotos gratis.  
+    ./ -> Raiz  Ref relativa a donde estamos parados
+    Control + barraspaciado y ahi VSC nos tira opciones.     
+
