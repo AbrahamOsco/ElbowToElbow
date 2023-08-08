@@ -24,10 +24,10 @@ Cuando el navegador encuentra algo con h1 lo levanta primero, todo las etiquetas
 1. ol>li*4 -> me armo todo la estructura solo pongo texto. "Puedo crear una pagina con una sola linea" -alberto. 
 
 1. Table: consiste de celdas dentro de filas y columnas.  
-    1. <table> </table> Table: creamos la tabla. 
-    1. <caption> </caption> Caption: basicamente para poner un titulo a la tabla.
-    1. <tr> </tr> Table row: Cada fila de la tabla comienza con un tr.  
-    1. <th> </th> Table header: Para definir los encabezados de una tabla. 
-    1. <td> </td> Table data: una celda adentro puede ser texto, imagenes, listas otra tabla. 
+    1. ``` <table> </table> ``` Table: creamos la tabla. 
+    1. ``` <caption> </caption> ``` Caption: basicamente para poner un titulo a la tabla.
+    1. ``` <tr> </tr> ``` Table row: Cada fila de la tabla comienza con un tr.  
+    1. ``` <th> </th>``` Table header: Para definir los encabezados de una tabla. 
+    1. ``` <td> </td>``` Table data: una celda adentro puede ser texto, imagenes, listas otra tabla. 
 
 
