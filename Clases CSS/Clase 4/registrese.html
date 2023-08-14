@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css" >
+
+    <title>Document</title>
+</head>
+<body>
+    <form action=" ">
+        <br>        
+        <div>
+            <label for = "nombre" >Ingrese su nombre </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" value="valorPorDefecto" disabled > 
+        </div>
+        <br>
+
+        <div>
+            <label id = "pass">Ingrese su contraseña </label>
+            <input type="password"   name="contraseña" id="pass" placeholder="Ingrese su contraseña">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="mail"> Ingrese su mail  </label>  
+            <input type="email" name="correo" id="mail"  type="text">
+        </div>
+
+        <br> 
+
+        <div>
+            <label for="mayor"> Es mayor de edad?? </label>
+            <input type="checkbox" name="mayor"  id="mayor"> 
+        </div>
+        
+        <div>
+            <input type="radio" name="estadoCivil" id="S">
+            <label for=""> Soltero </label>
+
+            <input type="radio" name="estadoCivil" id="C">
+            <label for=""> Casado </label>
+
+            <input type="radio" name="estadoCivil" id="V">
+            <label for=""> Viudo </label>
+        </div>
+
+        <div>
+            <label>Pais: </label>
+            <select for="" >
+                <option value="">Seleccione </option>
+                <option value="ar">Argentina </option>
+                <option value="ch">Chile </option>
+                <option value="and">Andorra </option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for=""> Comentarios: </label>
+            <textarea name="comentario" id="" cols="50" rows="10" maxlength="10" > 
+
+            </textarea>
+
+        </div>
+        <input type="color">
+
+        <input type="submit" > 
+    </form>
+    <a href="./etiqSeman.html"> click para etiquetas semanticas</a>
+    
+</body>
+</html>

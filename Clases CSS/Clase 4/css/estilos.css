@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color:rgb(113, 179, 47);
+    background-color: rgb(255, 245, 234);
+  /*text-align: center;*/
+  font-family: sans-serif;
+}
+
+p{
+    font-style: italic;
+    font-weight: 100;
+}
+
+strong{
+    color: crimson;
+}
+
+
+.amarillo{
+    color:rgb(101, 101, 4);
+}
+
+#parrafoPrincipal{
+    font-size: 50px;
+    color: darkcyan;
+    border: 5px solid;
+
+}
+#titulo{
+    color: coral !important;    
+}
+
+p strong { 
+    color: blanchedalmond;
+    font-size: ;
+}
