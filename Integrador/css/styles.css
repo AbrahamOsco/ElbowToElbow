@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 
 header{
@@ -12,6 +13,7 @@ header{
     display: flex; /* hace que los elemento esten uno al lado del otro */
     justify-content: space-between; /*poner nuestros 2 elementos en ambas puntas del contenedor*/
     align-items: center;     /* el menu y la imagen no estan centrado (en la misma linea ) entonces lo centramos*/
+    padding-bottom: 20px;   
 }
 
 .navbar__menu{
@@ -19,6 +21,98 @@ header{
     align-items: center;
     gap: 20px;   
 }
+
+
+.navbar__item a {
+    color: white;
+    text-decoration:none;
+    font-family: 'Raleway';
+    font-size: 22px;
+
+}
+
+.articleIng{
+    background-image: url('../img/funkos-banner.webp');
+    background-size: 100% auto;
+    background-position: 50% 80%; /*porc alejado a la iz y porc alejado de arriba*/
+    height: 400px; /* altura de la imagen*/
+    width: 100%;
+    text-align: left;
+    filter: brightness(100%);
+}
+
+.articleIng__h3{
+    filter: brightness(100%);
+    font-family: 'Raleway';
+    font-size: 50px ;
+    color: rgb(255, 255, 255);    
+    padding: 100px 0px 0px 200px;
+}
+.articleIng__p{
+    filter: brightness(100%);
+    font-family: 'Raleway';
+    font-size: 20px ;
+    color: rgb(255, 255, 255);    
+    padding: 0px 0px 0px 200px;
+}
+
+.articleIng__a{
+    font-family: 'Raleway';
+    display: inline-block;
+    background-color: white;
+    border-radius: 25px;
+    margin: 40px 0px 0px 200px;
+    padding: 15px 80px 15px 80px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.DivMerGra{
+    display: flex; /* Activa el flexbox para alinear los elementos en fila */
+    margin: 0px 50px 50px 300px;
+    align-items: center;
+}
+
+.articleMerGra__h3{
+    font-family: 'Raleway';
+    font-size:40px;
+    color: black;
+}
+
+.articleMerGra__p{
+    font-family: 'Raleway';
+    font-size:20px;
+    color: black;
+}
+
+.articleMerGra__hr{
+    margin-top: 30px;
+    color: #FF3333;
+    width: 140%;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+.articleMerGra__a{
+    font-family: 'Raleway';
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 15px 60px 15px 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.pictureMerGra{
+    padding-left: 250px;
+}
+
+
 
 
 
