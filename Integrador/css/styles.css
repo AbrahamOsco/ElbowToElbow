@@ -28,32 +28,43 @@ header{
     text-decoration:none;
     font-family: 'Raleway';
     font-size: 22px;
-
 }
 
 .articleIng{
-    background-image: url('../img/funkos-banner.webp');
-    background-size: 100% auto;
-    background-position: 50% 80%; /*porc alejado a la iz y porc alejado de arriba*/
-    height: 400px; /* altura de la imagen*/
-    width: 100%;
+    position: relative;
+    height: 300px; /* altura de la imagen*/
     text-align: left;
-    filter: brightness(100%);
+    padding: 100px 100px 0px 100px;
 }
+
+
+.articleIng::before{ /* pseudo-elemento hijo del articleIng */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/funkos-banner.webp');
+    background-size: 100% 200%;
+    background-position: 160% 75%; /*porc alejado a la iz y porc alejado de arriba*/
+    filter: brightness(50%);
+    z-index: -1;
+}
+
 
 .articleIng__h3{
     filter: brightness(100%);
     font-family: 'Raleway';
     font-size: 50px ;
     color: rgb(255, 255, 255);    
-    padding: 100px 0px 0px 200px;
 }
 .articleIng__p{
     filter: brightness(100%);
     font-family: 'Raleway';
     font-size: 20px ;
-    color: rgb(255, 255, 255);    
-    padding: 0px 0px 0px 200px;
+    color: rgb(255, 255, 255); 
+    padding-top: 20px;   
 }
 
 .articleIng__a{
@@ -61,7 +72,7 @@ header{
     display: inline-block;
     background-color: white;
     border-radius: 25px;
-    margin: 40px 0px 0px 200px;
+    margin-top: 40px;
     padding: 15px 80px 15px 80px;
     color: black;
     text-decoration: none;
@@ -71,8 +82,9 @@ header{
 
 .DivMerGra{
     display: flex; /* Activa el flexbox para alinear los elementos en fila */
-    margin: 0px 50px 50px 300px;
-    align-items: center;
+    align-items: center; /* pone los elementos en la misma linea centrada */
+    justify-content: center; /* centrar objetos sin usar padding ni margin aplica al div q contiene los elementos*/
+    padding-top: 10px;
 }
 
 .articleMerGra__h3{
@@ -90,7 +102,7 @@ header{
 .articleMerGra__hr{
     margin-top: 30px;
     color: #FF3333;
-    width: 140%;
+    width: 165%;
     border-style: solid;
     border-width: 2px;
 
@@ -112,7 +124,37 @@ header{
     padding-left: 250px;
 }
 
+.pictureMerGra__small{
+    padding-left: 0px;
+}
 
+.articleMerGra__hr__small{
+    width: 680px;
+}
 
+.DivMerGra__inverter{
+    flex-direction: row-reverse; /* ponemos elementos al reves*/
+    margin: 0px 220px 0px 0px;
+}
+
+.UltLan__h2{
+    font-family: 'Raleway';
+    font-size:46px;
+    font-weight: bold;
+    color: black;
+}
+
+.UltLan__a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway';
+    font-size: 20px;
+    /*hijos herean estos estilos */
+} 
+
+.div__PCuotas{
+    color: #1D84B5;
+    font-weight: bold;
+}
 
 
