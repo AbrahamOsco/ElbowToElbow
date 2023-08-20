@@ -1,6 +1,12 @@
+/* normalizamos */
 *{
     margin: 0px;
     padding: 0px;
+}
+
+/* cuando pasamos el mouse por etiquetas a no nos aparecera subrayado el enlace. */
+a:hover {
+    text-decoration: none;
 }
 
 header{
@@ -31,27 +37,17 @@ header{
 }
 
 .articleIng{
-    position: relative;
-    height: 300px; /* altura de la imagen*/
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)
+     ), url('../img/funkos-banner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 160% 75%; 
+    background-size: 100% 200%;
+    height: 350px; /* altura de la imagen*/
     text-align: left;
     padding: 100px 100px 0px 100px;
 }
-
-
-.articleIng::before{ /* pseudo-elemento hijo del articleIng */
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../img/funkos-banner.webp');
-    background-size: 100% 200%;
-    background-position: 160% 75%; /*porc alejado a la iz y porc alejado de arriba*/
-    filter: brightness(50%);
-    z-index: -1;
-}
-
 
 .articleIng__h3{
     filter: brightness(100%);
@@ -137,12 +133,22 @@ header{
     margin: 0px 220px 0px 0px;
 }
 
+
 .UltLan__h2{
     font-family: 'Raleway';
-    font-size:46px;
+    font-size:50px;
     font-weight: bold;
     color: black;
+    font-weight: 900;
 }
+
+.UltLan__ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 60px 20px 20px 100px ;
+}
+
 
 .UltLan__a{
     text-decoration: none;
@@ -152,9 +158,49 @@ header{
     /*hijos herean estos estilos */
 } 
 
+.div__PNombGlob{
+    margin-bottom: 20px;
+}
+
+.div__H3NombProd{
+    margin-bottom: 15px;
+}
+
+
 .div__PCuotas{
     color: #1D84B5;
+    margin-top: 15px;
     font-weight: bold;
 }
+
+/* configuramos la altura y el ancho del carousel  */ 
+.carousel__Size{
+    max-height: 1000px;
+    width: 1950px;
+}
+
+
+/* ponemos el fondo blanco con sombra pertenciente al arrow */
+.carousel__setupArrow{
+    background-size: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: solid white 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
+
+/*  we change arrow color here in backgimg in ->fill: black or blue or white,etc an we change arrow size with backgr-size */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
 
 
