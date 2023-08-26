@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+
+h1{
+  text-align: center;
+  margin: 25px;  
+}
+
+p{
+    border: 7px solid blue;
+    padding: 5px 20px;
+}
+
+
+
+.caja{
+    margin: 15px auto;
+    width: 80%;
+
+}
+
+footer{
+     text-align: center;   
+}
+
+main{
+    position: relative;
+}
+
+img{
+    position: sticky;
+    top: 0px; 
+    opacity: 0.5;
+}
+
+.contenedor{
+    width: 600px;
+    height: 600px;
+    
+}
