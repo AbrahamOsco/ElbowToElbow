@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor{
+    width: 100vw;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: skyblue;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.caja{
+    color: white;
+    background-color: red;
+    width: 330px;
+    height: 330px;
+    margin: 100px auto;
+    filter: grayscale(100%)
+}

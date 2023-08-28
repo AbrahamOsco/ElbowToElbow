@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.caja{
+    width: 30%;
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align: top;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+

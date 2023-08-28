@@ -1,0 +1,62 @@
+
+.caja{
+    /*    transform: translate(70px, 70px)*/
+}
+
+.caja{
+    transition: 1s;
+    background-image: url(./flower-8079026_1280.png);
+    background-size: cover;
+}
+
+.caja:hover{
+    background-color: yellow;
+    transform: translate(70px, 70px) scale(1.2, 0.8)  
+    rotate(-30deg) skew(10deg, 10deg);
+    filter: grayscale(0%) saturate(10) ;
+}
+
+.caja:active{
+    border: 100px solid rgb(0, 255, 21);
+}
+
+h1::first-letter{
+    font-size: 100px;
+    color: blue;
+}
+
+
+.caja{
+    animation-name: movimiento;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease;
+
+}
+/* from quiero ver */
+
+@keyframes movimiento{
+    from{
+
+
+    }   
+    
+    50%{
+        transform: rotate(180deg);
+
+    }
+
+    100%{
+        transform: rotate(0deg);
+        background-color: violet;
+    }
+
+    to{
+        background-color: greenyellow;
+    }
+    
+} 
+
+
+
+
