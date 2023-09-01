@@ -1,0 +1,42 @@
+.contenedor{
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex; /*para distribuir elementos */
+    flex-direction: row; /* en que orientacion quiero que se distribuya los lelementos*/
+    justify-content: flex-start ; /* como se contenida el contenido en esta direccion */
+    /* space betewen -> simetrico  ;
+     space-around = es como si dejar el mismo magen a todos los elementos.
+     space-evenly puedo distribuir  
+     */
+     align-items: flex-start ; /* centrado a nivel vertical */
+    /*si ponemos flex-direction colum lo va a centrar a nivel horizontal */
+    padding: 3px;
+    flex-wrap: wrap;
+    align-content: flex-start   ;
+}
+
+.elemento{
+    width: 200px;
+    height: 50px;
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 3px;
+}
+
+#caja1{
+    background-color: red;
+}
+
+#caja2{
+    background-color: blue;
+}
+
+#caja3{
+    background-color: green;
+}
+
+#caja4{
+    background-color: violet
+}
+

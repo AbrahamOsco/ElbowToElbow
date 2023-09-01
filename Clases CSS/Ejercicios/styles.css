@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.divSupp{
+    background-color: rgb(4, 11, 36);
+    height: 100vh; /* con esto ocupara el 100% de la altura 100vh*/
+}
+
+
+.primerDiv, .segundoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255) ;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 500px;
+    height: 500px;
+}
+
+.sectionImg{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+}
+
+.unaImagen{ 
+    margin-bottom: 30px;
+}
+.unaImagen img{
+    border: 10px dashed black;
+}
+.unaImagen p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.primerDiv{
+    animation: transicionTexto 5s infinite alternate;
+}
+
+.segundoDiv{
+    animation-name: transicionTextoDos;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes transicionTextoDos{
+    from{
+
+    }
+    0%, 50%{
+        filter: opacity(0%);
+    }
+    
+    60%, 100%{
+        filter: opacity(100%);
+    }
+}
+
+@keyframes transicionTexto {
+    from{
+
+    }
+
+    0%, 50%{
+        filter: opacity(100%);
+    }
+
+    60%, 100%{
+        filter: opacity(0%);
+    }    
+}

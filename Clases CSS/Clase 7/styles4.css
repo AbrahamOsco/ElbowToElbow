@@ -1,0 +1,30 @@
+p{
+    padding: 15px;
+    font-size: 1.4em;
+    font-family: 'Arial';
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    background: radial-gradient(blue 15%, black 35%);
+    font-style: italic;
+}
+
+.caja{
+    box-shadow: 10px 3px 5px rgb(255, 0, 0);  /* tamanio- sombra en x abajo sombra en y derecha  difuminado  gray   -se puede  poner negativos*/
+    /* con 2 y 3 argmentos podemos usar negativos tambien. para hacer referencia a la derecha y arriba */
+    font-weight: 700 ;
+}
+
+h1{
+    text-shadow: 3px 1px 1px red; /* idem que el box -shadown*/
+
+}
+
+#contenedor{ 
+    background: radial-gradient(white, gray);
+    /*background: linear-gradient(to bottom, black 10%, peru );*/
+}
+
+

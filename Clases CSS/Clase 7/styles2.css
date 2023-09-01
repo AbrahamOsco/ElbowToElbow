@@ -18,7 +18,7 @@ h1{
     color: white;
     background-color: red;
     width: 330px;
-    height: 330px;
+    height: auto;
     margin: 100px auto;
     filter: grayscale(100%)
 }
