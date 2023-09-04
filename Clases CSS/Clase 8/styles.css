@@ -22,21 +22,35 @@
     font-size: 2.8rem;
     text-align: center;
     margin: 3px;
+    flex-grow: 1;
 }
 
 #caja1{
     background-color: red;
+    flex-shrink: 4;
+    order: 4;
+    align-self: flex-end;
 }
 
 #caja2{
     background-color: blue;
+    flex-grow: 1;
+    order: 3;
+    align-self: stretch;
+
 }
 
 #caja3{
     background-color: green;
+    flex-grow: 1;
+    order: 2;
+
 }
 
 #caja4{
-    background-color: violet
+    background-color: violet;
+    flex-grow: 1;
+    order: 1;
+
 }
 

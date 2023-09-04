@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* raiz de CSS para declarar variables */
+:root{
+    --main-bg-color: skyblue;
+}
+
+body{
+    padding: 50px;
+    background-color: var(--main-bg-color);
+}
+
+.caja{
+    height: 100px;
+    width: 100px;
+
+    margin: 30px;
+    background-color: var(--main-bg-color);
+}
+
+
+

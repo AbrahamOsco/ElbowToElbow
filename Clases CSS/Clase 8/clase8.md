@@ -12,6 +12,16 @@ aling-content: space beeteween, space evenly,  los sube todo para arriba.
 1. align-items no hace nada cuando es column. 
 1. Horizontal queda a manos del alig content. 
 1. https://flexboxfroggy.com/#es
-1.  
-
-
+1.  aling-items 
+1. elementos internos del contenedor superan el ancho del contenedor. 
+    Normalmente no-wrap es que quede comprido.En cambio si hago wrap va a respetar el width 
+    y lo va mandando abajo a cada elemento. 
+1. align-conten: va manejar el justificado de lo vertical, ya que no solo tenemos una linea. 
+1. Factor de crecimiento y factor de no-creciimiento con 
+    1. flex-grow: con >=1 crece el elemento Manera de proporcionar los elementos.
+    1. flex-shrink: como el factor de encogimiento. Todo lo hace proporcional. 
+1. Order para asignar el orden de aparcion de las cosas el numero mas grande aparece ultimo.
+1. Si quiereo mover cada elemento a nivel vertical lo hago con aling-self. 
+1. Contenedor simple si es manejable. con flex-box
+1. Quizas lo mejor es usar grid. 
+1. 
