@@ -10,7 +10,7 @@
 1. boostrap se divide 12 
 1. CDN: toma un elemento relativo de la web y no se lo baja.
 1. Para INSTALAR boostrap:
-    1. Agregar esto al antes de nuestro href link.
+    1. Agregar esto al antes de nuestro href link. (en el head)
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
     
