@@ -7,8 +7,5 @@ const persona = {
     nombreCompleto: function(){
         return this.nombre + this.apellido;
     }    
-
-
 }
-
 

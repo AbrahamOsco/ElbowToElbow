@@ -34,6 +34,6 @@
         return this.nombre + this.apellido;}   
         }         
 1. Si me cargo todo un proucto para ofrecer, en realidad me traigo todo una array de objetos.
-  
+1.  
 
 
