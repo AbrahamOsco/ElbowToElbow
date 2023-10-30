@@ -39,6 +39,6 @@
 1. case senstivie. 
 1. Like para buscar strins. y hacer con: 
     1.  %Toy story% mostrar todas lsa peliculas
-1.    
+1.     
 
 
